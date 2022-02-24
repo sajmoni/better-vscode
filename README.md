@@ -1,5 +1,7 @@
 # vs-code-guides
 
+> How to be hyper productive in VS Code
+
 ## Minimize visual clutter
 
 ## Good keybindings
