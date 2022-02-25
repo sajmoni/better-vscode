@@ -9,13 +9,7 @@
 ### Always update imports when a file is moved
 
 ```json
-"javascript.updateImportsOnFileMove.enabled": "always",
-```
-
-### Increase line height
-
-```json
-"editor.lineHeight": 24,
+  "typescript.updateImportsOnFileMove.enabled": "always",
 ```
 
 ### Add a vertical line at max line width
@@ -105,6 +99,36 @@
   "gitlens.statusBar.pullRequests.enabled": false,
 ```
 
+### Increase line height
+
+```json
+"editor.lineHeight": 24,
+```
+
+### Add a delay before hover information is shown
+
+```json
+  "editor.hover.delay": 500,
+```
+
+### Less information in tabs
+
+```json
+  "workbench.editor.labelFormat": "short",
+```
+
+### No git decorations
+
+```json
+  "git.decorations.enabled": false,
+```
+
+### Better window title
+
+```json
+  "window.title": "${rootName}${separator}${activeEditorMedium}",
+```
+
 ## 🎊 Flair
 
 ### Smooth scrolling
@@ -177,11 +201,76 @@
 },
 ```
 
+### Increase / decrease view size
+
+```json
+{
+  "key": "shift+cmd+[Minus]",
+  "command": "workbench.action.increaseViewSize"
+},
+{
+  "key": "shift+cmd+-",
+  "command": "workbench.action.decreaseViewSize"
+},
+```
+
 ## 🧩 Extensions
+
+### [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+
+> Automating the process of writing meaningful log messages
+
+### [Template String Converter](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)
+
+> Converts a string to a template string when ${ is typed
+
+### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+> All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+
+### [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
+
+> File-specific icons in VSCode for improved visual grepping
+
+### [Code Spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+> Spelling checker for source code
+
+### [Color highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+
+> Highlight web colors in your editor
+
+### [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+
+> Makes indentation easier to read
+
+### [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+
+> Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which
+
+### [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+> Supercharge the Git capabilities built into Visual Studio Code
+
+### [Bracketeer](https://marketplace.visualstudio.com/items?itemName=pustelto.bracketeer)
+
+> Easy manipulation with brackets and quotes
+
+### Snippets
+
+### [Ava](https://marketplace.visualstudio.com/items?itemName=samverschueren.ava)
+
+> Snippets for AVA
+
+### [eslint-disable-snippets](https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snippets)
+
+> Simple snippets for disable eslint rules
 
 ## 💅 Themes
 
-Tokyo Night
+### [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+
+> A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night
 
 Github
 
