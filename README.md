@@ -2,7 +2,7 @@
 
 > How to boost productivity in VS Code
 
-## Productivity boosters
+## 🚄 Productivity boosters
 
 > Settings to increase productivity
 
@@ -59,7 +59,7 @@
 ```
 
 
-## Minimize visual clutter
+## ✨ Minimize visual clutter
 
 ### Turn off breadcrumbs
 
@@ -95,7 +95,17 @@
   "editor.foldingImportsByDefault": true
 ```
 
-## Flair
+### Hide unnecessary Gitlens features
+
+```json
+  "gitlens.codeLens.authors.command": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.statusBar.pullRequests.enabled": false,
+```
+
+## 🎊 Flair
 
 ### Smooth scrolling
 
@@ -111,7 +121,7 @@
   "editor.cursorBlinking": "phase",
 ```
 
-## Good keybindings
+## ⌨️ Keybindings
 
 ### Find references
 
