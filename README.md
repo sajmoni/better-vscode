@@ -1,8 +1,115 @@
 # vs-code-guides
 
-> How to be hyper productive in VS Code
+> How to boost productivity in VS Code
+
+## Productivity boosters
+
+> Settings to increase productivity
+
+### Always update imports when a file is moved
+
+```json
+"javascript.updateImportsOnFileMove.enabled": "always",
+```
+
+### Increase line height
+
+```json
+"editor.lineHeight": 24,
+```
+
+### Add a vertical line at max line width
+
+```json
+"editor.rulers": [80],
+```
+
+### Improve bracket pair visualization
+
+```json
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+```
+
+### Display function references
+
+> Easily spot if a function is unused
+
+```json
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+```
+
+### Opened files remain open
+
+```json
+  "workbench.editor.enablePreview": false,
+```
+
+### Don't require confirmation when files are moved
+
+```json
+  "explorer.confirmDragAndDrop": false,
+```
+
+### Auto-close JSX tags
+
+```json
+  "typescript.autoClosingTags": true,
+```
+
 
 ## Minimize visual clutter
+
+### Turn off breadcrumbs
+
+```json
+  "breadcrumbs.enabled": false,
+```
+
+### Hide tab close button
+
+> You can close tabs with the keyboard shortcut anyway
+
+```json
+  "workbench.editor.tabCloseButton": "off",
+```
+
+### Turn off minimap
+
+> You have scrollbar annotations anyway
+
+```json
+"editor.minimap.enabled": false,
+```
+
+### Enable file nesting
+
+```json
+  "explorer.experimental.fileNesting.enabled": true,
+```
+
+### Fold imports
+
+```json
+  "editor.foldingImportsByDefault": true
+```
+
+## Flair
+
+### Smooth scrolling
+
+```json
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+```
+
+### Smooth cursor animation
+
+```json
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "phase",
+```
 
 ## Good keybindings
 
