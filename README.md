@@ -214,6 +214,27 @@
 },
 ```
 
+### Add a cursor to each highlighted line
+
+> Default keybinding
+
+```json
+{
+  "key": "shift+alt+i",
+  "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+  "when": "editorTextFocus"
+}
+```
+
+### Split editor
+
+```json
+{
+  "key": "ctrl+alt+cmd+[Period]",
+  "command": "workbench.action.moveEditorToNextGroup"
+},
+```
+
 ## 🧩 Extensions
 
 ### [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
@@ -256,6 +277,62 @@
 
 > Easy manipulation with brackets and quotes
 
+### [Highlight](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight)
+
+> Advanced text highlighter based on regexes. Useful for todos, annotations, colors etc.
+
+Highlight tests example:
+
+```json
+"highlight.regexes": {
+  "(it|describe|test)(\\.only.*)": {
+    "filterFileRegex": "(.*)spec|test(.*)",
+    "decorations": [
+      {
+        "overviewRulerColor": "#ffcc00",
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f"
+      }
+    ]
+  },
+  "(describe\\(.*)": {
+    "filterFileRegex": "(.*)spec|test(.*)",
+    "decorations": [
+      {
+        "overviewRulerColor": "#832561",
+        "backgroundColor": "#832561",
+        "color": "#eeeeee",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#832561",
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  "(\\ it\\(.*)": {
+    "filterFileRegex": "(.*)spec|test(.*)",
+    "decorations": [
+      {
+        "overviewRulerColor": "#135564",
+        "backgroundColor": "#135564",
+        "color": "#eeeeee",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#135564",
+        "color": "#eeeeee"
+      }
+    ]
+  }
+}
+```
+
 ### Snippets
 
 ### [Ava](https://marketplace.visualstudio.com/items?itemName=samverschueren.ava)
@@ -272,6 +349,9 @@
 
 > A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night
 
-Github
+### [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+
+> GitHub theme for VS Code
+
 
 
