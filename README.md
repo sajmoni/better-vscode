@@ -1,10 +1,10 @@
-# vs-code-guides
+# better-vscode
 
-> How to boost productivity in VS Code
+> Tips and tricks for working with VS Code
 
-## 🚄 Productivity boosters
+# 🔧 Settings
 
-> Settings to increase productivity
+## 🚄 Improve productivity
 
 ### Always update imports when a file is moved
 
@@ -52,6 +52,7 @@
   "typescript.autoClosingTags": true,
 ```
 
+---
 
 ## ✨ Minimize visual clutter
 
@@ -129,6 +130,8 @@
   "window.title": "${rootName}${separator}${activeEditorMedium}",
 ```
 
+---
+
 ## 🎊 Flair
 
 ### Smooth scrolling
@@ -145,7 +148,9 @@
   "editor.cursorBlinking": "phase",
 ```
 
-## ⌨️ Keybindings
+---
+
+# ⌨️ Keybindings
 
 ### Find references
 
@@ -235,7 +240,7 @@
 },
 ```
 
-## 🧩 Extensions
+# 🧩 Extensions
 
 ### [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 
@@ -333,7 +338,7 @@ Highlight tests example:
 }
 ```
 
-### Snippets
+## Snippets
 
 ### [Ava](https://marketplace.visualstudio.com/items?itemName=samverschueren.ava)
 
@@ -343,7 +348,7 @@ Highlight tests example:
 
 > Simple snippets for disable eslint rules
 
-## 💅 Themes
+# 💅 Themes
 
 ### [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
