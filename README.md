@@ -282,6 +282,15 @@
 
 > Easy manipulation with brackets and quotes
 
+Keybindings:
+
+```json
+{
+  "key": "shift+cmd+backspace",
+  "command": "bracketeer.removeBrackets"
+},
+```
+
 ### [Highlight](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight)
 
 > Advanced text highlighter based on regexes. Useful for todos, annotations, colors etc.
