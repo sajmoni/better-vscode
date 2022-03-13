@@ -52,6 +52,20 @@
   "typescript.autoClosingTags": true,
 ```
 
+### Auto rename HTML closing tag
+
+```json
+  "editor.linkedEditing": true,
+```
+
+### Use native tabs (MacOS only)
+
+```json
+  "window.nativeTabs": true,
+```
+
+You need to open projects separately and then merge windows with: `Merge all windows`
+
 ---
 
 ## ✨ Minimize visual clutter
@@ -241,6 +255,21 @@
 ```
 
 # 🧩 Extensions
+
+### [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+> Improve highlighting of errors, warnings and other language diagnostics
+
+Recommended settings:
+
+```json
+  "errorLens.delay": 1000,
+  "errorLens.excludeBySource": ["cSpell"]
+```
+
+### [Auto close tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+
+> Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does
 
 ### [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 
