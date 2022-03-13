@@ -190,9 +190,7 @@ You need to open projects separately and then merge windows with: `Merge all win
 },
 ```
 
-### Navigate back / forward
-
-> Go to the previous / next cursor position
+### Go to the previous / next cursor position
 
 ```json
 {
@@ -205,9 +203,7 @@ You need to open projects separately and then merge windows with: `Merge all win
 }
 ```
 
-### Cycle tabs
-
-> Go to the next / previous tab
+### Go to the next / previous tab
 
 ```json
 {
@@ -311,7 +307,7 @@ Recommended settings:
 
 > Easy manipulation with brackets and quotes
 
-Keybindings:
+Keybindings to automatically remove corresponing bracket:
 
 ```json
 {
