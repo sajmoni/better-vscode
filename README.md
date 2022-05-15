@@ -21,7 +21,6 @@
 ### Improve bracket pair visualization
 
 ```json
-  "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
 ```
 
@@ -95,7 +94,8 @@ You need to open projects separately and then merge windows with: `Merge all win
 ### Enable file nesting
 
 ```json
-  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
 ```
 
 ### Fold imports
@@ -320,7 +320,7 @@ Keybindings to automatically remove corresponing bracket:
 
 > Advanced text highlighter based on regexes. Useful for todos, annotations, colors etc.
 
-Highlight tests example:
+Highlight `only` tests example:
 
 ```json
 "highlight.regexes": {
@@ -336,36 +336,6 @@ Highlight tests example:
       {
         "backgroundColor": "#ffcc00",
         "color": "#1f1f1f"
-      }
-    ]
-  },
-  "(describe\\(.*)": {
-    "filterFileRegex": "(.*)spec|test(.*)",
-    "decorations": [
-      {
-        "overviewRulerColor": "#832561",
-        "backgroundColor": "#832561",
-        "color": "#eeeeee",
-        "fontWeight": "bold"
-      },
-      {
-        "backgroundColor": "#832561",
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  "(\\ it\\(.*)": {
-    "filterFileRegex": "(.*)spec|test(.*)",
-    "decorations": [
-      {
-        "overviewRulerColor": "#135564",
-        "backgroundColor": "#135564",
-        "color": "#eeeeee",
-        "fontWeight": "bold"
-      },
-      {
-        "backgroundColor": "#135564",
-        "color": "#eeeeee"
       }
     ]
   }
