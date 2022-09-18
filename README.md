@@ -1,6 +1,63 @@
-# better-vscode
+# better-vscode <!-- omit in toc -->
 
 > Tips and tricks for working with VS Code
+
+## Index <!-- omit in toc -->
+
+- [🔧 Settings](#-settings)
+  - [🚄 Improve productivity](#-improve-productivity)
+    - [Always update imports when a file is moved](#always-update-imports-when-a-file-is-moved)
+    - [Add a vertical line at max line width](#add-a-vertical-line-at-max-line-width)
+    - [Improve bracket pair visualization](#improve-bracket-pair-visualization)
+    - [Display function references](#display-function-references)
+    - [Opened files remain open](#opened-files-remain-open)
+    - [Don't require confirmation when files are moved](#dont-require-confirmation-when-files-are-moved)
+    - [Auto-close JSX tags](#auto-close-jsx-tags)
+    - [Auto rename HTML closing tag](#auto-rename-html-closing-tag)
+    - [Use native tabs (MacOS only)](#use-native-tabs-macos-only)
+  - [✨ Minimize visual clutter](#-minimize-visual-clutter)
+    - [Turn off breadcrumbs](#turn-off-breadcrumbs)
+    - [Hide tab close button](#hide-tab-close-button)
+    - [Turn off minimap](#turn-off-minimap)
+    - [Enable file nesting](#enable-file-nesting)
+    - [Fold imports](#fold-imports)
+    - [Hide unnecessary Gitlens features](#hide-unnecessary-gitlens-features)
+    - [Increase line height](#increase-line-height)
+    - [Add a delay before hover information is shown](#add-a-delay-before-hover-information-is-shown)
+    - [Less information in tabs](#less-information-in-tabs)
+    - [No git decorations](#no-git-decorations)
+    - [Better window title](#better-window-title)
+  - [🎊 Flair](#-flair)
+    - [Smooth scrolling](#smooth-scrolling)
+    - [Smooth cursor animation](#smooth-cursor-animation)
+- [⌨️ Keybindings](#️-keybindings)
+    - [Find references](#find-references)
+    - [Rename symbol](#rename-symbol)
+    - [Go to the previous / next cursor position](#go-to-the-previous--next-cursor-position)
+    - [Go to the next / previous tab](#go-to-the-next--previous-tab)
+    - [Increase / decrease view size](#increase--decrease-view-size)
+    - [Add a cursor to each highlighted line](#add-a-cursor-to-each-highlighted-line)
+    - [Split editor](#split-editor)
+- [🧩 Extensions](#-extensions)
+    - [Error lens](#error-lens)
+    - [Auto close tag](#auto-close-tag)
+    - [Turbo Console Log](#turbo-console-log)
+    - [Template String Converter](#template-string-converter)
+    - [Markdown All in One](#markdown-all-in-one)
+    - [file-icons](#file-icons)
+    - [Code Spell checker](#code-spell-checker)
+    - [Color highlight](#color-highlight)
+    - [indent-rainbow](#indent-rainbow)
+    - [Peacock](#peacock)
+    - [Gitlens](#gitlens)
+    - [Bracketeer](#bracketeer)
+    - [Highlight](#highlight)
+  - [Snippets](#snippets)
+    - [Ava](#ava)
+    - [eslint-disable-snippets](#eslint-disable-snippets)
+- [💅 Themes](#-themes)
+    - [Tokyo Night](#tokyo-night)
+    - [Github](#github)
 
 # 🔧 Settings
 
@@ -361,6 +418,3 @@ Highlight `only` tests example:
 ### [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 
 > GitHub theme for VS Code
-
-
-
