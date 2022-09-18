@@ -15,6 +15,12 @@
     - [Auto-close JSX tags](#auto-close-jsx-tags)
     - [Auto rename HTML closing tag](#auto-rename-html-closing-tag)
     - [Use native tabs (MacOS only)](#use-native-tabs-macos-only)
+    - [Sticky scroll](#sticky-scroll)
+    - [Limit open tabs](#limit-open-tabs)
+    - [Don't use aliases when renaming](#dont-use-aliases-when-renaming)
+    - [Always use braces for JSX attribute completion](#always-use-braces-for-jsx-attribute-completion)
+    - [Auto-complete parameters when picking suggestion](#auto-complete-parameters-when-picking-suggestion)
+    - [Enable inline suggestions](#enable-inline-suggestions)
   - [✨ Minimize visual clutter](#-minimize-visual-clutter)
     - [Turn off breadcrumbs](#turn-off-breadcrumbs)
     - [Hide tab close button](#hide-tab-close-button)
@@ -51,6 +57,9 @@
     - [Peacock](#peacock)
     - [Gitlens](#gitlens)
     - [Bracketeer](#bracketeer)
+    - [Multiple cursor case preserve](#multiple-cursor-case-preserve)
+    - [TypeScript Error Translator](#typescript-error-translator)
+    - [Auto Rename Tag](#auto-rename-tag)
     - [Highlight](#highlight)
   - [Snippets](#snippets)
     - [Ava](#ava)
@@ -122,6 +131,47 @@
 
 You need to open projects separately and then merge windows with: `Merge all windows`
 
+### Sticky scroll
+
+```json
+  "editor.stickyScroll.enabled": true,
+```
+
+### Limit open tabs
+
+> Closes the oldest one when limit is exceeded
+
+```json
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
+```
+
+### Don't use aliases when renaming
+
+```json
+  "typescript.preferences.useAliasesForRenames": false,
+```
+
+### Always use braces for JSX attribute completion
+
+> Makes attributes always consistent
+
+```json
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+```
+
+### Auto-complete parameters when picking suggestion
+
+```json
+  "typescript.suggest.completeFunctionCalls": true,
+```
+
+### Enable inline suggestions
+
+```json
+  "editor.inlineSuggest.enabled": true,
+```
+
 ---
 
 ## ✨ Minimize visual clutter
@@ -169,6 +219,10 @@ You need to open projects separately and then merge windows with: `Merge all win
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.statusBar.pullRequests.enabled": false,
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.virtualRepositories.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.menus": false,
 ```
 
 ### Increase line height
@@ -372,6 +426,18 @@ Keybindings to automatically remove corresponing bracket:
   "command": "bracketeer.removeBrackets"
 },
 ```
+
+### [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve)
+
+> Preserves case when editing with multiple cursors
+
+### [TypeScript Error Translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
+
+> TypeScript errors, translated for humans
+
+### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+> Auto rename paired HTML/XML tag
 
 ### [Highlight](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight)
 
