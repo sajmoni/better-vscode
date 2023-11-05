@@ -16,23 +16,24 @@
     - [Auto rename HTML closing tag](#auto-rename-html-closing-tag)
     - [Use native tabs (MacOS only)](#use-native-tabs-macos-only)
     - [Sticky scroll](#sticky-scroll)
-    - [Limit open tabs](#limit-open-tabs)
     - [Don't use aliases when renaming](#dont-use-aliases-when-renaming)
     - [Always use braces for JSX attribute completion](#always-use-braces-for-jsx-attribute-completion)
     - [Auto-complete parameters when picking suggestion](#auto-complete-parameters-when-picking-suggestion)
     - [Enable inline suggestions](#enable-inline-suggestions)
+    - [Use the typescript version of your project](#use-the-typescript-version-of-your-project)
+    - [Do not ask for confirmation when deleting files](#do-not-ask-for-confirmation-when-deleting-files)
   - [✨ Minimize visual clutter](#-minimize-visual-clutter)
     - [Turn off breadcrumbs](#turn-off-breadcrumbs)
     - [Hide tab close button](#hide-tab-close-button)
     - [Turn off minimap](#turn-off-minimap)
     - [Enable file nesting](#enable-file-nesting)
-    - [Fold imports](#fold-imports)
     - [Hide unnecessary Gitlens features](#hide-unnecessary-gitlens-features)
     - [Increase line height](#increase-line-height)
     - [Add a delay before hover information is shown](#add-a-delay-before-hover-information-is-shown)
     - [Less information in tabs](#less-information-in-tabs)
     - [No git decorations](#no-git-decorations)
     - [Better window title](#better-window-title)
+    - [Limit open tabs](#limit-open-tabs)
   - [🎊 Flair](#-flair)
     - [Smooth scrolling](#smooth-scrolling)
     - [Smooth cursor animation](#smooth-cursor-animation)
@@ -62,11 +63,11 @@
     - [Auto Rename Tag](#auto-rename-tag)
     - [Highlight](#highlight)
   - [Snippets](#snippets)
-    - [Ava](#ava)
     - [eslint-disable-snippets](#eslint-disable-snippets)
 - [💅 Themes](#-themes)
     - [Tokyo Night](#tokyo-night)
     - [Github](#github)
+    - [Cobalt2](#cobalt2)
 
 # 🔧 Settings
 
@@ -137,15 +138,6 @@ You need to open projects separately and then merge windows with: `Merge all win
   "editor.stickyScroll.enabled": true,
 ```
 
-### Limit open tabs
-
-> Closes the oldest one when limit is exceeded
-
-```json
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 8,
-```
-
 ### Don't use aliases when renaming
 
 ```json
@@ -172,6 +164,20 @@ You need to open projects separately and then merge windows with: `Merge all win
   "editor.inlineSuggest.enabled": true,
 ```
 
+### Use the typescript version of your project
+
+```json
+  "typescript.tsdk": "node_modules/typescript/lib",
+```
+
+### Do not ask for confirmation when deleting files
+
+> Use git to undo instead
+
+```json
+  "explorer.confirmDelete": false,
+```
+
 ---
 
 ## ✨ Minimize visual clutter
@@ -195,7 +201,7 @@ You need to open projects separately and then merge windows with: `Merge all win
 > You have scrollbar annotations anyway
 
 ```json
-"editor.minimap.enabled": false,
+  "editor.minimap.enabled": false,
 ```
 
 ### Enable file nesting
@@ -203,12 +209,6 @@ You need to open projects separately and then merge windows with: `Merge all win
 ```json
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
-```
-
-### Fold imports
-
-```json
-  "editor.foldingImportsByDefault": true
 ```
 
 ### Hide unnecessary Gitlens features
@@ -253,6 +253,15 @@ You need to open projects separately and then merge windows with: `Merge all win
 
 ```json
   "window.title": "${rootName}${separator}${activeEditorMedium}",
+```
+
+### Limit open tabs
+
+> Closes the oldest one when limit is exceeded
+
+```json
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
 ```
 
 ---
@@ -467,10 +476,6 @@ Highlight `only` tests example:
 
 ## Snippets
 
-### [Ava](https://marketplace.visualstudio.com/items?itemName=samverschueren.ava)
-
-> Snippets for AVA
-
 ### [eslint-disable-snippets](https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snippets)
 
 > Simple snippets for disable eslint rules
@@ -484,3 +489,7 @@ Highlight `only` tests example:
 ### [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 
 > GitHub theme for VS Code
+
+### [Cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+
+> 🔥 Official theme by Wes Bos
