@@ -1,6 +1,6 @@
 # better-vscode <!-- omit in toc -->
 
-> Tips and tricks for working with VS Code
+> Make VS Code better
 
 ## Index <!-- omit in toc -->
 
