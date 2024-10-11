@@ -372,6 +372,10 @@ You need to open projects separately and then merge windows with: `Merge all win
 
 # 🧩 Extensions
 
+### [File Nesting Updater](https://marketplace.visualstudio.com/items?itemName=antfu.file-nesting)
+
+> Auto updating for Anthony's file nesting config
+
 ### [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 > Improve highlighting of errors, warnings and other language diagnostics
